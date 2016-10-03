@@ -1,21 +1,20 @@
 [mysqld]
-    innodb_file_per_table
-    innodb_buffer_pool_size = 250M
-    innodb_flush_log_at_trx_commit = 2
-    innodb_log_file_size = 64M
-    innodb_flush_method = O_DIRECT
+innodb_file_per_table
+innodb_flush_log_at_trx_commit = 2
+innodb_log_file_size = 64M
+innodb_flush_method = O_DIRECT
 
-    max_allowed_packet=512M
-    query_cache_size = 128M
-    query_cache_limit = 8M
-    innodb_buffer_pool_size = 8000M
-    max_connections = 70
-    table_open_cache = 14240
-    thread_cache_size = 32
-    max_heap_table_size = 128M
-    tmp_table_size = 128M
-    key_buffer_size = 128M
-    join_buffer_size = 12M
-    sort_buffer_size = 12M
-    bulk_insert_buffer_size = 2M
-    myisam_sort_buffer_size = 8M
+max_allowed_packet=512M
+query_cache_size = 128M
+query_cache_limit = 8M
+innodb_buffer_pool_size = 8000M
+max_connections = 70
+table_open_cache = 14240
+thread_cache_size = 32
+max_heap_table_size = 128M
+tmp_table_size = 128M
+key_buffer_size = 128M
+join_buffer_size = 12M
+sort_buffer_size = 12M
+bulk_insert_buffer_size = 2M
+myisam_sort_buffer_size = 8M
